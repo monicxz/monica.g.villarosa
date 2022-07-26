@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <div class h1>
+    <title>SHOPNOW</title>
+    </div>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
+    <script src="script.js"></script>
+    <script src="Product_list.json"></script>
+    
+</head>
+<body>
+    
+   <div class="header">
+      
+      <img class=logo src="shopet.jpg" alt="shopetlogo" width="90" >
+      <bold><h1>shoPET</h1></bold>
+
+
+      <a href="cart.html"><img class= cart circular src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/twitter/322/shopping-cart_1f6d2.png"  alt="cart" 
+        width="50">
+        </a>
+   </div>
+
+
+<hr>
+
+<!--CAROUSEL-->
+
+<div class="container">
+        <div class="image fade">
+            <img src="https://assets-us-01.kc-usercontent.com/0542d611-b6d8-4320-a4f4-35ac5cbf43a6/69f7982a-03fb-41e6-9796-79652cb0f99e/pet-store-header.jpg?w=1110&h=400&fit=crop" width="100%">
+               <H2> <span>PET ESSENTIALS</span>
+                <strong>AVAILABLE<br/> </strong></H2>
+        </div>
+        <div class="image fade">
+            <img src="https://getvoip.com/uploads/Business-Dogs-Header.jpg" width="564px" height="203px">
+            <H2><span>HAPPY SHOPPING PLACE</span>
+                <strong>FOR YOUR PETS<br/> </strong></H2>
+        </div>
+        <div class="image fade">
+            <img src="https://cycledog.com/wp-content/uploads/2022/07/06-22-NewArrivals-Web-Header-2.jpg"
+            width="100%">
+             <H2><span>NEW ARRIVALS ARE HERE!</span>
+                <strong>MAKE YOUR furKIDS FEEL LOVED<br/> </strong></H2>
+        </div>
+
+        <a id="prev" onclick="show_slide(-1)">&#10094;</a>
+        <a id="next" onclick="show_slide(1)">&#10095;</a>
+        
+        <div class="dots">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+
+
+
+
+<!--FLEXBOX-->
+
+    <div class="product-container">
+        <div class="product-card">
+            <img src="https://media.istockphoto.com/photos/dog-rawhide-bone-picture-id183817025?k=20&m=183817025&s=612x612&w=0&h=lf35EprMK3QGhKI6LKbQkHYQRUN_DUH94ZvFK6i8DIA=" alt="Image" width="150px">
+            <h3 class="product-title">BONE</h3>
+            <h4 class="brand">Rawrity</h4>
+            <h4 class="description">Large Bone</h4>
+            <span class="product-price">P200</span>
+            <div class="BUTTONS">
+                <button class="BUYbutton">
+                    BUY
+                    <svg class="Icon">...</svg>
+                  </button>
+            
+                  <button class="AddToCartbutton">
+                    ADD TO CART
+                    <svg class="Icon">...</svg>
+                  </button>
+                </div>
+        </div>
+        <div class="product-card">
+            <img src="https://ph-test-11.slatic.net/p/4edaa107989bf15fd307a3e0673f645b.png" alt="Image"width="150px">
+            <h3 class="product-title">BEEF JERKY</h3>
+            <h4 class="brand">Pedigree</h4>
+            <h4 class="description">200g</h4>
+            <span class="product-price">P280</span>
+            <div class="BUTTONS">
+                <button class="BUYbutton">
+                    BUY
+                    <svg class="Icon">...</svg>
+                  </button>
+            
+                  <button class="AddToCartbutton">
+                    ADD TO CART
+                    <svg class="Icon">...</svg>
+                  </button>
+                </div>
+        </div>
+        <div class="product-card">
+            <img src="https://m.media-amazon.com/images/I/61IoqaN0oVL.jpg" alt="Image"width="150px">
+            <h3 class="product-title">SQUICKY</h3>
+            <h4 class="brand">ToysRus</h4>
+            <h4 class="description">Duck</h4>
+            <span class="product-price">P350</span>
+            <div class="BUTTONS">
+                <button class="BUYbutton">
+                    BUY
+                    <svg class="Icon">...</svg>
+                  </button>
+            
+                  <button class="AddToCartbutton">
+                    ADD TO CART
+                    <svg class="Icon">...</svg>
+                  </button>
+                </div>
+        </div>
+        <div class="product-card">
+            <img src="https://cdn.royalcanin-weshare-online.io/fGnhrWsBG95Xk-RBpftc/v399/packshot-puppy-mini-shn17" alt="Image"width="150px">
+            <h3 class="product-title">DOG FOOD</h3>
+            <h4 class="brand">Royal Canin</h4>
+            <h4 class="description">10 kg- Puppy</h4>
+            <span class="product-price">P1490</span>
+            <div class="BUTTONS">
+                <button class="BUYbutton">
+                    BUY
+                    <svg class="Icon">...</svg>
+                  </button>
+            
+                  <button class="AddToCartbutton">
+                    ADD TO CART
+                    <svg class="Icon">...</svg>
+                  </button>
+                </div>
+        </div>
+        <div class="product-card">
+            <img src="https://media.istockphoto.com/photos/metal-pet-bowl-3d-picture-id1224049875?k=20&m=1224049875&s=612x612&w=0&h=-MZdnc2nLOZbbxhG3Tf5r9REjqyY6StidiXRqN26EHc=" alt="Image"width="150px">
+            <h3 class="product-title">BOWL</h3>
+            <h4 class="brand">Divis</h4>
+            <h4 class="description">Silver Large</h4>
+            <span class="product-price">P299</span>
+            <div class="BUTTONS">
+                <button class="BUYbutton">
+                    BUY
+                    <svg class="Icon">...</svg>
+                  </button>
+            
+                  <button class="AddToCartbutton">
+                    ADD TO CART
+                    <svg class="Icon">...</svg>
+                  </button>
+                </div>
+        </div>
+        <div class="product-card">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/6140xkCMmeL._AC_SL1000_.jpg" alt="Image"width="150px">
+            <h3 class="product-title">COLLAR</h3>
+            <h4 class="brand">Petville</h4>
+            <h4 class="description">Blue puppy collar</h4>
+            <span class="product-price">P280</span>
+            <div class="BUTTONS">
+                <button class="BUYbutton">
+                    BUY
+                    <svg class="Icon">...</svg>
+                  </button>
+            
+                  <button class="AddToCartbutton">
+                    ADD TO CART
+                    <svg class="Icon">...</svg>
+                  </button>
+                </div>
+        </div>
+        
+    </div>
+
+
+
+ 
+</body>
